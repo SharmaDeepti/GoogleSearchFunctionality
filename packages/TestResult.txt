@@ -1,0 +1,44 @@
+=> GoogleSearchProject.Feature.Google_SearchTextFeature.IEnterTheTextAsAvivaInGooglePage
+Given I open a google homepage "http:www.google.com" in Firefox browser and
+Opened URL
+-> done: Google_SearchTextSteps.GivenIOpenAGoogleHomepageInFirefoxBrowserAnd("http:www.google.com") (11.7s)
+When I search for "Aviva" text in text box
+Text Searched
+-> done: Google_SearchTextSteps.WhenISearchForTextInTextBox("Aviva") (0.1s)
+Then I should be able to view the search results displayed with links and Aviva related text
+in try
+Search Result Count:  48
+Link at 5th position : https://www.google.co.in/webhp?tab=ww
+Closed the browser
+-> done: Google_SearchTextSteps.ThenIShouldBeAbleToViewTheSearchResultsDisplayedWithLinksAndAvivaRelatedText() (4.1s)
+=> GoogleSearchProject.Feature.Google_SearchTextFeature.TitleVerification
+Given I start the Firefox browser
+-> done: Google_SearchTextSteps.GivenIStartTheFirefoxBrowser() (10.7s)
+When I am able to open the google homepage
+Opened URL
+-> done: Google_SearchTextSteps.WhenIAmAbleToOpenTheGoogleHomepage() (6.9s)
+Then I should be able to view the google home page with title displayed correctly as "Google"
+Closed the browser
+-> done: Google_SearchTextSteps.ThenIShouldBeAbleToViewTheGoogleHomePageWithTitleDisplayedCorrectlyAs("Google") (3.0s)
+=> GoogleSearchProject.Feature.Google_SearchTextFeature
+-> Using app.config
+=> GoogleSearchProject.Feature.MathCalculationFeature.AddTwoNumbers
+Given I have entered 40 into the calculator
+-> done: MathCalculationSteps.GivenIHaveEnteredIntoTheCalculator(40) (0.0s)
+And I have entered 4 into the calculator
+-> done: MathCalculationSteps.GivenIHaveEnteredIntoTheCalculator(4) (0.0s)
+When I press add
+Addition Total 44
+-> done: MathCalculationSteps.WhenIPressAdd() (0.0s)
+Then the result should be 44 on the screen
+-> done: MathCalculationSteps.ThenTheResultShouldBeOnTheScreen(44) (0.0s)
+=> GoogleSearchProject.Feature.MathCalculationFeature.SubtractTwoNumbers
+Given I have entered 40 into the calculator
+-> done: MathCalculationSteps.GivenIHaveEnteredIntoTheCalculator(40) (0.0s)
+And I have entered 4 into the calculator
+-> done: MathCalculationSteps.GivenIHaveEnteredIntoTheCalculator(4) (0.0s)
+When I press subtract
+Subtraction Total 36
+-> done: MathCalculationSteps.WhenIPressSubtract() (0.0s)
+Then the subtraction result should be not be displayed as 44 on the screen
+-> done: MathCalculationSteps.TheSubtractionResultShouldBeNotBeDisplayedAsOnTheScreen(44) (0.0s)

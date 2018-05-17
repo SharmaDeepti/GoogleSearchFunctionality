@@ -1,0 +1,15 @@
+=> GoogleSearchProject.Feature.SearchTextFeature.SearchAvivaTextInGoogle
+Given I Open a google homepage "www.google.com" and
+Opened URL
+-> done: SearchTextSteps.GivenIOpenAGoogleHomepageAnd("www.google.com") (14.5s)
+When I Search for "Aviva" text in search text box
+Text Searched
+-> done: SearchTextSteps.WhenISearchForTextInSearchTextBox("Aviva") (0.2s)
+Then I should see the search results displayed with Aviva related text
+in try
+Search Result Count:  47
+Link at 5th position : https://www.google.co.in/webhp?tab=ww
+Closed the browser
+-> done: SearchTextSteps.ThenIShouldSeeTheSearchResultsDisplayedWithAvivaRelatedText() (2.5s)
+=> GoogleSearchProject.Feature.SearchTextFeature
+-> Using app.config

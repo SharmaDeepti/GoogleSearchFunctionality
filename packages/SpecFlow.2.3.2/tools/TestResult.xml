@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Deepti\Source\Repos\GoogleSearchProject\packages\GoogleSearchProject\bin\Debug\GoogleSearchProject.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-05-17" time="12:51:54">
+  <environment nunit-version="3.5.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Users\Deepti\Source\Repos\GoogleSearchProject\packages" machine-name="DESKTOP-RVFPVMN" user="Deepti" user-domain="DESKTOP-RVFPVMN" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Deepti\Source\Repos\GoogleSearchProject\packages\GoogleSearchProject\bin\Debug\GoogleSearchProject.dll" executed="True" result="Success" success="True" time="27.418" asserts="0">
+    <properties>
+      <property name="_PID" value="20084" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="GoogleSearchProject" executed="True" result="Success" success="True" time="27.390" asserts="0">
+        <results>
+          <test-suite type="TestSuite" name="Feature" executed="True" result="Success" success="True" time="27.389" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="Google_SearchTextFeature" description="Google_SearchText" executed="True" result="Success" success="True" time="27.362" asserts="0">
+                <properties>
+                  <property name="Description" value="Google_SearchText" />
+                </properties>
+                <results>
+                  <test-case name="GoogleSearchProject.Feature.Google_SearchTextFeature.IEnterTheTextAsAvivaInGooglePage" description="I enter the text as 'Aviva' in Google page" executed="True" result="Success" success="True" time="14.046" asserts="0">
+                    <categories>
+                      <category name="Positive" />
+                    </categories>
+                    <properties>
+                      <property name="Description" value="I enter the text as 'Aviva' in Google page" />
+                    </properties>
+                  </test-case>
+                  <test-case name="GoogleSearchProject.Feature.Google_SearchTextFeature.TitleVerification" description="TitleVerification" executed="True" result="Success" success="True" time="12.834" asserts="0">
+                    <properties>
+                      <property name="Description" value="TitleVerification" />
+                    </properties>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="MathCalculationFeature" description="MathCalculation" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <properties>
+                  <property name="Description" value="MathCalculation" />
+                </properties>
+                <results>
+                  <test-case name="GoogleSearchProject.Feature.MathCalculationFeature.AddTwoNumbers" description="Add two numbers" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                    <categories>
+                      <category name="Addition" />
+                    </categories>
+                    <properties>
+                      <property name="Description" value="Add two numbers" />
+                    </properties>
+                  </test-case>
+                  <test-case name="GoogleSearchProject.Feature.MathCalculationFeature.SubtractTwoNumbers" description="Subtract two numbers" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <categories>
+                      <category name="Subtraction" />
+                      <category name="-Negative" />
+                      <category name="scenario" />
+                    </categories>
+                    <properties>
+                      <property name="Description" value="Subtract two numbers" />
+                    </properties>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

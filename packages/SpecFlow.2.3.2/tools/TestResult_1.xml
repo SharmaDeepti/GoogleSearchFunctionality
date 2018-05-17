@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Deepti\Source\Repos\GoogleSearchProject\GoogleSearchProject\bin\Debug\GoogleSearchProject.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-05-17" time="05:30:18">
+  <environment nunit-version="3.5.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Users\Deepti\Source\Repos\GoogleSearchProject\packages\NUnit.ConsoleRunner.3.8.0\tools" machine-name="DESKTOP-RVFPVMN" user="Deepti" user-domain="DESKTOP-RVFPVMN" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Deepti\Source\Repos\GoogleSearchProject\GoogleSearchProject\bin\Debug\GoogleSearchProject.dll" executed="True" result="Success" success="True" time="18.546" asserts="0">
+    <properties>
+      <property name="_PID" value="17604" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="GoogleSearchProject" executed="True" result="Success" success="True" time="18.494" asserts="0">
+        <results>
+          <test-suite type="TestSuite" name="Feature" executed="True" result="Success" success="True" time="18.492" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="SearchTextFeature" description="SearchText" executed="True" result="Success" success="True" time="18.472" asserts="0">
+                <properties>
+                  <property name="Description" value="SearchText" />
+                </properties>
+                <results>
+                  <test-case name="GoogleSearchProject.Feature.SearchTextFeature.SearchAvivaTextInGoogle" description="Search 'Aviva' text in google" executed="True" result="Success" success="True" time="17.566" asserts="0">
+                    <properties>
+                      <property name="Description" value="Search 'Aviva' text in google" />
+                    </properties>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
